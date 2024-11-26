@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+
+    <!-- You can add more tests here, but let's focus on one for now -->
+    <test name="Admin Testing">
+        <classes>
+            <class name="AdminTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+
+    <test name="PIM Testing">
+        <classes>
+            <class name="PIMTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+    <test name="Logout Testing">
+        <classes>
+            <class name="LogoutTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+
+    <test name="LoginTesting">
+        <classes>
+            <class name="LoginTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+
+    <test name="BuzzTesting">
+        <classes>
+            <class name="BuzzTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+
+    <test name="RecruitmentTesting">
+        <classes>
+            <class name="RecruitmentTesting"/>  <!-- Make sure the package is correct -->
+        </classes>
+    </test>
+
+
+
+</suite>
