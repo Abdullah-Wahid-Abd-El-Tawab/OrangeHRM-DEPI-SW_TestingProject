@@ -12,10 +12,6 @@ This repository contains the software testing project for the DEPI software test
 
 [OrangeHRM Website](https://www.orangehrm.com/)
 
-### Repository Links
-
-- [GitHub Repository Link]([https://github.com/Sara556M/OrangeHRM-DEPI-SW_TestingProject](https://github.com/Abdullah-Wahid-Abd-El-Tawab/OrangeHRM-DEPI-SW_TestingProject))
-
 ## Project Requirements
 
 The project follows the guidelines provided by the instructor:
